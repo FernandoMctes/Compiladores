@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Turing Sumator</title>
+
+<!-- Bootstrap core CSS -->
+<link href="JS/Lib/bootstrap-3.2.0/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/signin.css" rel="stylesheet">
+<link href="css/dashboard.css" rel="stylesheet">
+
+<script type="text/javascript" src="JS/app.js"></script>
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="JS/app.js"></script>
+
+
+</head>
+
+<body>
+
+	<h1>Maquina de Turing: Sumador</h1>
+
+	<div class="col-sm-12">
+		<section class="col-sm-3">
+			<div class="form-group" name ="form1">
+				<input type="text" name="numero" id="txt" id="inputNumero"
+					placeholder="Ingrese Numero a Sumar"
+					onkeypress="return soloNumeros(event);">
+			</div>
+
+			<div class="form-group">
+				<input type="text" name="numero" id="txt1" id="inputNumero"
+					placeholder="Ingrese Numero a Sumar"
+					onkeypress="return soloNumeros(event);">
+			</div>
+
+		</section>
+
+
+		<section class="col-sm-9">
+			<div>
+				<div>
+					<canvas id="micanvas" width="800em" height="100">
+                    Tu navegador no soporta Canvas
+                </canvas>
+				</div>
+				<div>
+					<input type="button" value="Sumar" id="cargar">
+
+
+				</div>
+			</div>
+		</section>
+	</div>
+	<div  class="col-sm-12">
+		<footer>
+			<h4>Jaime Peralta </h4>
+			<h4>Said Salcedo</h4>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>
