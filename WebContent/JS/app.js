@@ -14,7 +14,7 @@ function init() {
 
 	var ctx = canvas.getContext("2d");
 
-	cinta(ctx, x, y);
+	
 
 	document.getElementById('cargar').addEventListener('click', function() {
 		numero1 = document.getElementById('txt').value;
