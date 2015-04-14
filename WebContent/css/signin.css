@@ -5,7 +5,7 @@ body {
 }
 
 canvas{
-    border: solid;
+    border: double;
 }
 .form-signin {
 	max-width: 330px;
