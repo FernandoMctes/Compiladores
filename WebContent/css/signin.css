@@ -1,10 +1,11 @@
 body {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: #B8DEEB;
+	background-color: #8080c0;
 }
 
 canvas{
+ 
     border: double;
 }
 .form-signin {
